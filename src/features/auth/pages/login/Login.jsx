@@ -1,10 +1,32 @@
+import AuthForm from "../../components/AuthForm";
+
 const Login = () =>{
+
+//     const handleLogin= (data)=>{
+
+// // try {
+
+// //     const response = await loginUser(data)
+    
+// // } catch (error) {
+    
+// // }
+
+
+
+
+
+// //    
+//  }
 
 
 
 return(
 
-    <div></div>
+    <div>
+
+          <AuthForm isLogin={true} />
+    </div>
 )
 
 }

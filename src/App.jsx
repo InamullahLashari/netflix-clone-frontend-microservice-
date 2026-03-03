@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import LandingPage from './features/auth/pages/landingpage/LandingPage';
 import './App.css';
 
 
@@ -9,29 +10,19 @@ function App() {
   return (
     <>
 
-   
-      <Navbar />
-      <div>
-      
 
-          {/* <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/inam" element={<Inam />} />
+     <LandingPage />
 
-
-
-          </Routes> */}
+     
 
             <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/inam" element={<Inam />} />
-            <Route path= "/about" element = {<About/>}/>
-            <Route path = "/contact" element = {<Contact/>}/>
+
+           
           </Routes>
 
 
     
-      </div>
+     
     </>
 
   );
